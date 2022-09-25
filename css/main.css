@@ -14,7 +14,7 @@
 .CV-button {
     border: none;
     border-radius: 6px;
-    background-color: #32474a;
+    background-color: #0c2238;
     padding: 12px;
     font-size: 12px;
     height:30px;
@@ -22,15 +22,20 @@
     color: white;
     font-family:  sans-serif;
 }
+.CV-button:hover{
+    background-color: #32474a;
+}
 body{
     font-family: 'َAria', Georgia, serif,  sans-serif;
     margin: 0;
     padding: 0;
     background-color: #dbe0df;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #dbe0df 4px ), repeating-linear-gradient( #c7cdcc55, #c7cdcc );
     
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: papyrus;
 }
 h1{
     color: #0c2238;
@@ -111,12 +116,13 @@ a{
     display: inline-block;
     position: fixed;
     left: 10px;
-    top: 10px;
+    /* top: 10px; */
     z-index: 1000;
     width: 44px;
-    height: 44px;
+    height: 48px;
     background: #0c2238;
     color: #dbe0df;
+    font-family: Segoe Print;
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
@@ -150,15 +156,19 @@ a{
     border-radius: 3px;
     margin-bottom: 5px;				
 }
+.special-link:hover{
+    background-color: #444;
+}
 .scroll-menu{
     display: inline-block;
     position: fixed;
     left: 3%;
-    top: 20%;
+    top: 15%;
     z-index: 0;
 }
 .scroll-menu .scroll-links{ 
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Comic Sans MS ;
     display: block;
     text-decoration: none;
     padding: 10px 0px;
@@ -180,7 +190,8 @@ a{
 }
 
 .full-page h1, .full-page h6, .full-page a{
-    font-family: Caflisch Script Pro, cursive;
+    /* font-family: Caflisch Script Pro, cursive; */
+    font-family: Segoe Script;
 }
 
 .full-page a{
@@ -217,18 +228,20 @@ a{
     width: 75%;
     height: 100%;
     /* background-image: url('./images/8Tndlf.jpg'); */
+    background-color: #dbe0df;
+    background: repeating-linear-gradient( 45deg, #c7cdcc, #c7cdcc 2px, #dbe0df 2px, #dbe0df 10px );
 }
-
-/* .left.white.wrapper{
-    background-image: url('./images/8Tndlf.jpg');
-} */
 
 .left.black{
     width: 25%;
     height: 100%;
-    background: #222;
+    /* background: #222; */
     color: #FFF;
     /* transform:scale(0.5); */
+    background-color: #222;
+    opacity: 1;
+    background-size: 4px 4px;
+    background-image: repeating-linear-gradient(45deg, #000000 0, #000000 0.4px, #222 0, #222 50%);
 }
 
 .wrapper .container{
@@ -258,6 +271,7 @@ a{
     /* padding: 0px 0%; */
 }
 .full-page a.button{
+    font-family: Comic Sans MS;
     background-color: #0c2238;
     text-decoration: none;
     width: 200px;
@@ -266,6 +280,7 @@ a{
     border: 1px solid;
     display: inline-block;
     text-transform: uppercase;
+    /* background: repeating-linear-gradient( 45deg, #0c2238, #0c2238 2px, #000000 2px, #000000 10px ); */
 }
 
 .full-page a.button.white{
