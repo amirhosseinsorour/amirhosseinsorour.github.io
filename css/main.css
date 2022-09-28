@@ -201,6 +201,7 @@ a{
 
 .full-page h1, .full-page h6{
     margin: 0px;
+    transform: scale(1.1);
 }
 
 .full-page h1{
